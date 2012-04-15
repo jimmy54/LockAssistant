@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>LockAssistant Settings:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>In case that you have Siri disabled, LockAssistant will launch Voice Control instead.</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.freemanrepo.lockassistant/prefs</string>
+			<key>alternateColors</key>
+			<true/>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.freemanrepo.lockassistant</string>
+			<key>key</key>
+			<string>Enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.freemanrepo.lockassistant/prefs</string>
+			<key>alternateColors</key>
+			<true/>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.freemanrepo.lockassistant</string>
+			<key>key</key>
+			<string>Always Show</string>
+			<key>label</key>
+			<string>Show cam</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGiantIconCell</string>
+			<key>enabled</key>
+			<true/>
+			<key>action</key>
+			<string>SiriBoard:</string>
+			<key>icon</key>
+			<string>SiriBoard.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>LockAssistant by Majd Alfhaily (@FreeManRepo)</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>followPressed:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Twitter</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>mailPressed:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Contact</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>donatePressed:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Support Developer</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>LockAssistant</string>
+</dict>
+</plist>

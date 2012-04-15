@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = LockAssistant;
+	cell = PSLinkCell;
+	detail = LockAssistantListController;
+	icon = LockAssistant.png;
+	isController = 1;
+	label = LockAssistant;
+    };
+}

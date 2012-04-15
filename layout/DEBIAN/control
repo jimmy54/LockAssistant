@@ -1,0 +1,10 @@
+Package: com.freemanrepo.lockassistant
+Name: LockAssistant
+Depends: mobilesubstrate, preferenceloader, gsc.assistant | com.chpwn.spire
+Version: 1.2
+Icon: file:///Library/PreferenceBundles/LockAssistantPrefs.bundle/LockAssistantPrefs@2x.png
+Architecture: iphoneos-arm
+Description: Enable Siri Launching from LockScreen isntead of Camera!
+Maintainer: FreeManRepo
+Author: FreeManRepo
+Section: Tweaks
